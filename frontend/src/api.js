@@ -2,8 +2,8 @@
 import axios from "axios";
 
 const api = axios.create({
-//   baseURL: "https://your-render-backend-url",
-   baseURL: "http://localhost:5000",
+  baseURL: "https://user-management-backend-oh6q.onrender.com",
+  // baseURL: "http://localhost:5000",
 });
 
 api.interceptors.request.use((req) => {
